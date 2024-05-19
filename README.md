@@ -1,8 +1,35 @@
-# React + Vite
+# Model Breeder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Model Breeder is a web application that allows users to visualize and train Convolutional Neural Networks (CNNs) directly in the browser using TensorFlow and Three.js. This project aims to make it easier for users to experiment with CNN models without needing to set up a complex environment.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Visualize CNN Models**: Easily create and visualize the architecture of CNN models.
+- **Train Models in the Browser**: Train your CNN models directly in the browser using TensorFlow.js.
+- **3D Visualization**: Utilize Three.js for an interactive 3D representation of your models.
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 
+- npm 
+
+### Installation
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/raviadi12/modelbreeder.git
+    cd model-breeder
+    ```
+
+2. Install dependencies:
+    ```sh
+    npm install
+    ```
+
+### Running the Application
+
+To start the development server and run the application locally, use:
+```sh
+npm run dev
