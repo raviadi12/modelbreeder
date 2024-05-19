@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "unik-3f23e"
+  },
+  "targets": {
+    "unik-3f23e": {
+      "hosting": {
+        "modelbreeder": [
+          "modelbreeder"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

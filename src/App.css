@@ -1,0 +1,73 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #1c1c1e;
+  color: #d4d4d8;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  background: linear-gradient(45deg, #ff6b6b, #ffa500);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+canvas {
+  border: 1px solid #3f3f46;
+  margin: 20px 0;
+}
+
+hr {
+  min-width: 100px;
+  border-color: #3f3f46;
+}
+
+button {
+  background: linear-gradient(45deg, #ff6b6b, #ffa500);
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: opacity 0.3s;
+  margin: 6px;
+  border-radius: 4px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+input[type="text"] {
+  padding: 10px 14px;
+  font-size: 16px;
+  border: 1px solid #3f3f46;
+  border-radius: 4px;
+  background-color: #1c1c1e;
+  color: #d4d4d8;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+select {
+  padding: 10px 14px;
+  font-size: 16px;
+  border: 1px solid #3f3f46;
+  border-radius: 4px;
+  background-color: #1c1c1e;
+  color: #d4d4d8;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#inferenceContainer {
+  margin-top: 40px;
+}
